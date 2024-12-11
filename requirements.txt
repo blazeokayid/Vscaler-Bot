@@ -1,0 +1,4 @@
+tgcrypto
+git+https://github.com/hydrogram/hydrogram.git
+pymongo
+ffmpeg-python

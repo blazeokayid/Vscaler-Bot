@@ -17,27 +17,27 @@ bot_verion = "1.0.0"
 # ---------------Bot Variables-----------------
 
 
-API_HASH = environ.get('API_HASH', '3f217dce997731657ba235ed0b0f784b')
+API_HASH = environ.get('API_HASH', '')
 if len(API_HASH) == 0:
     error("API_HASH variable is missing! Exiting now")
     exit(1)
 
 
-API_ID = environ.get('API_ID', '13328710')
+API_ID = environ.get('API_ID', '')
 if len(API_ID) == 0:
     error("API_ID variable is missing! Exiting now")
     exit(1)
 else:
     API_ID = int(API_ID)
 
-TOKEN = environ.get('TOKEN', '7944738665:AAFFJyltfJuF7XMdTk_wyJuWYv2hjortNTM')
+TOKEN = environ.get('TOKEN', '')
 if len(TOKEN) == 0:
     error("TOKEN variable is missing! Exiting now")
     exit(1)
 
 bot_id = TOKEN.split(':', 1)[0]
 
-DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://hoja:hoja@cluster0.nmynk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+DATABASE_URL = environ.get('DATABASE_URL', '')
 if len(DATABASE_URL) == 0:
     DATABASE_URL = ''
 

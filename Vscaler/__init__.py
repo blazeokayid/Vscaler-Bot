@@ -5,6 +5,7 @@ from pymongo import MongoClient
 from dotenv import load_dotenv, dotenv_values
 
 
+load_dotenv('config.env')
 
 # --------------Bot Version------------------
 bot_verion = "1.0.0"

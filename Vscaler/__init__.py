@@ -7,6 +7,27 @@ from dotenv import load_dotenv, dotenv_values
 
 load_dotenv('config.env')
 
+import logging
+
+# Create a logger
+LOGGER = logging.getLogger("Vscaler")
+LOGGER.setLevel(logging.INFO)
+
+# Create handlers
+file_handler = logging.FileHandler("bot.log")
+file_handler.setLevel(logging.INFO)
+
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+
+# Create formatters and add them to the handlers
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+console_handler.setFormatter(formatter)
+
+# Add the handlers to the logger
+LOGGER.addHandler(file_handler)
+LOGGER.addHandler(console_handler)
 # --------------Bot Version------------------
 bot_verion = "1.0.0"
 """

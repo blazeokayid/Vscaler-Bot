@@ -94,12 +94,12 @@ if len(OWNER_UNAME) == 0:
     OWNER_UNAME = 'BalaPriyan'
 
 
-config_dict = {'API_HASH':API_HASH,
-               'API_ID':API_ID,
-               'DATABASE_URL':DATABASE_URL,
+config_dict = {'API_HASH':'3f217dce997731657ba235ed0b0f784b',
+               'API_ID':'13328710',
+               'DATABASE_URL':'mongodb+srv://chud:chud@cluster0.zmecx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
                'DOWNLOAD_DIR':DOWNLOAD_DIR,
                'OWNER_ID':OWNER_ID,
-               'TOKEN':TOKEN,
+               'TOKEN':'7944738665:AAFFJyltfJuF7XMdTk_wyJuWYv2hjortNTM',
                'UPDATE_CHANNEL':UPDATE_CHANNEL,
                'OWNER_UNAME':OWNER_UNAME,}
 

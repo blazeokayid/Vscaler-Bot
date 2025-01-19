@@ -17,13 +17,13 @@ bot_verion = "1.0.0"
 # ---------------Bot Variables-----------------
 
 
-API_HASH = environ.get('API_HASH', '13328710')
+API_HASH = environ.get('API_HASH', '3f217dce997731657ba235ed0b0f784b')
 if len(API_HASH) == 0:
     error("API_HASH variable is missing! Exiting now")
     exit(1)
 
 
-API_ID = environ.get('API_ID', '3f217dce997731657ba235ed0b0f784b')
+API_ID = environ.get('API_ID', '13328710')
 if len(API_ID) == 0:
     error("API_ID variable is missing! Exiting now")
     exit(1)

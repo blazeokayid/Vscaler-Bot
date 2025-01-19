@@ -39,7 +39,7 @@ bot_verion = "1.0.0"
 # ---------------Bot Variables-----------------
 
 
-API_HASH = environ.get('API_HASH', ')
+API_HASH = environ.get('API_HASH', '')
 if len(API_HASH) == 0:
     error("API_HASH variable is missing! Exiting now")
     exit(1)

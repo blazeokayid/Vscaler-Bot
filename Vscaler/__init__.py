@@ -85,7 +85,7 @@ if len(UPDATE_CHANNEL) == 0:
 OWNER_ID = environ.get('OWNER_ID', '')
 if len(OWNER_ID) == 0:
     error("OWNER_ID variable is missing! Exiting now")
-    exit(1)
+    
 else:
     OWNER_ID = int(OWNER_ID)
 
